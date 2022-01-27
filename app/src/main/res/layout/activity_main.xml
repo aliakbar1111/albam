@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+
+
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/mkhan4"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Muhib Khan's Playlist"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#02012D"
+        android:textSize="20sp"
+        />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+
+        >
+        <!--        1st line-->
+        <LinearLayout
+            android:id="@+id/songOne"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+
+            android:background="#D3D3D3"
+
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mkhan"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:maxLines="3"
+                    android:padding="5dp"
+                    android:text="হায়! মিডিয়া | Hay.. Media By Muhib Khan | 2021 "
+                    android:textColor="#000000"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:paddingStart="20dp"
+                    android:text="protesting song"
+                    android:textStyle="italic"
+
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--        2nd line-->
+        <LinearLayout
+            android:id="@+id/songTwo"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="#D3D3D3"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mkhan2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:padding="5dp"
+                    android:text="আরবের ছবি । Arober Chobi By Muhib Khan । 2021 "
+                    android:textColor="#000000"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:text="Naat-e Rasul (sa.)"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!--        3rd line-->
+        <LinearLayout
+            android:id="@+id/songThree"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="#D3D3D3"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/muhibkhan" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:padding="5dp"
+                    android:text="Tarana-e Madaris-e Qawmia | তারানায়ে মাদারিসে কাওমিয়া | "
+                    android:textColor="#000000"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:paddingStart="20dp"
+                    android:text="Classic Song"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!--        4th line-->
+        <LinearLayout
+            android:id="@+id/songFour"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="#D3D3D3"
+
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mkhan3"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:maxLines="2"
+                    android:padding="5dp"
+                    android:text="মাল্লা মাঝির গান । মুহিব খান ২০১৯ । Malla Majhir Gan "
+                    android:textColor="#000000"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:paddingStart="20dp"
+                    android:text="About Country"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!--        5th line-->
+        <LinearLayout
+            android:id="@+id/songFive"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="#D3D3D3"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mkhan4"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:maxLines="3"
+                    android:padding="5dp"
+                    android:text="Shimanto Khule Dao । Bangla Urdoo । Muhib Khan "
+                    android:textColor="#000000"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:paddingStart="20dp"
+                    android:text="About Arakan"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!--        6th line-->
+        <LinearLayout
+            android:id="@+id/songSix"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+
+            android:orientation="horizontal"
+            android:background="#D3D3D3"
+            android:layout_marginBottom="5dp"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:paddingBottom="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:maxLines="3"
+                    android:padding="5dp"
+                    android:text="জাগরণী সংগীত | Ei Dhaka Holo Mosjider Shohor | এই ঢাকা হল মসজিদের শহর | Muhib khan | "
+                    android:textColor="#000000"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:paddingStart="20dp"
+                    android:text="Jagoroni Song"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!--        7th line-->
+        <LinearLayout
+            android:id="@+id/songSeven"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+
+            android:orientation="horizontal"
+            android:background="#D3D3D3"
+            android:layout_marginBottom="5dp"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:paddingBottom="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/images3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:maxLines="2"
+                    android:padding="5dp"
+                    android:text="Dastane Muhammad (sa.)। By Muhib Khan "
+                    android:textColor="#000000"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:gravity="start"
+                    android:paddingStart="20dp"
+                    android:text="Sirate Nabi (Sa.)"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!--        8th line-->
+        <LinearLayout
+            android:id="@+id/songEight"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="#D3D3D3"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:paddingBottom="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/images7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:maxLines="3"
+                    android:padding="5dp"
+                    android:text="Keno . Part-1 By Muhib Khan | কেন কেন ? জাগরনি গজল "
+                    android:textColor="#000000"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:paddingStart="20dp"
+                    android:text="About Arakan"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!--        9th line-->
+        <LinearLayout
+            android:id="@+id/songNine"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="#D3D3D3"
+
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:paddingTop="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/images9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:maxLines="3"
+                    android:padding="5dp"
+                    android:text="Keno Part-2 । By Muhib Khan |কেন কেন ? "
+                    android:textColor="#000000"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:paddingStart="20dp"
+                    android:text="jagoroni Song"
+                    android:textStyle="italic"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
+
+
+
+
+
+</LinearLayout>
